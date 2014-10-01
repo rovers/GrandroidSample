@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grandroid: Demos</string>
+    <!--Layout-->
+    <string name="comment_layout_layabsoulte">LayAbsolute is the position about how to set the layout for x and y position</string>
+    <string name="comment_layout_laylinear">LayLinear is the params of the layout basic setting</string>
+    <string name="comment_layout_laylinear_ff">layFF means that the layout width and height set the parameters with MATCH_PARENT.</string>
+    <string name="comment_layout_laylinear_fw">layFW means that the layout width is the MATCH_PARENT params, and height set the parameters with WRAP_CONTENT.</string>
+    <string name="comment_layout_laylinear_wf">layWF means that the layout width is the WRAP_CONTENT params, and height set the parameters with MATCH_PARENT.</string>
+    <string name="comment_layout_laylinear_ww">layWW means that the layout width and height set the parameters with WRAP_CONTENT.</string>
+    <string name="comment_layout_framelayout">FrameLayout is the overlay concept. You can add layout in anywhere, it will overlay other view, and you can control position.</string>   
+    <!--Action-->
+    <string name="comment_action_async_custom">You can design to add the icon, text or action which one display on the foreground when thread running on a background. Like the loading box or nothing to display on the foreground.</string>
+    <string name="comment_action_async_default">AsyncAction is designed to be a helper class around Thread and Handler and does not constitute a generic threading framework. It is more easier and convenient to use for the UI thread. This class can perform background oerations which action or operate about internet you want, and receive the results in the method, To handle results for publish the value or data set. It is quicky and simple without having to manipulate threads or handlers.</string>
+    <string name="comment_action_go">This class is used to change from one activity to the next activity or class where display a new screen/activity, it can perfrom action which you add too.</string>
+    <string name="comment_action_back">This class can back to activity which belongs to your previous activity class.</string>
+    <string name="comment_action_dial">Press the button to call to someone.</string>
+    <string name="comment_action_toast">This class is simple to use a toast for user. You can create and set the toast content or length quickly. TO show the information which you want them to see for the value or result in calculation.</string>
+    <string name="comment_action_notify">This class used to build a notification object. It can maker easier to construct notification for generate content views, add icon, enable virbate or other setting.</string>
+    <string name="comment_action_alert">This class generate the dialog view to make the choice content from builder and the AlertDialog. It creates and sets setData include the Action which activity/class you want to go.</string>
+    <string name="comment_action_Url">Open the browser and go to the specified web.</string>
+    <string name="comment_action_finish">Stop this activity.</string>
+    <string name="comment_action_map">Open the google map and find the point where you want to set.</string>
+    <string name="comment_action_store">Open the google play app and go to the app which one you select.</string>
+    <string name="comment_action_navigation">Open the map and plan to place where you set up</string>
+    <string name="comment_action_photo">Open the map and plan to place where you set up</string>
+    <string name="comment_action_pickphoto">This class is easy to open the gallery for select the photo which one want to display on the view.</string>
+    <string name="comment_action_share">This class is simple to use of the ACTION_SEND action which sending text content from one activity to another.</string>
+    <string name="comment_action_url">This class is simple to open the browser for specified uri. It creates the Action and set the uri or string of uri, it will be the entire URI and its action will be ACTION_VIEW.</string>
+    <string name="comment_action_trim">Open the map and plan to place where you set up</string>
+    <!--View-->
+    <string name="comment_view_edit">You can create the EditText and set style which like allow character. If you want to change the input interface, you can also set the inputformat.</string>
+    <string name="comment_view_view_designer">Taylor shares her thoughts on the future of the music industry in an essay for the Wall Street Journal\'s 125th Anniversary! </string>
+    <!--Adapter-->
+    <string name="comment_adapter_object">The ObjectAdapter is used to show the list by object, it is base on list. Like the array which one contain fruits. \nExample: \n{ Banana, Grape, Pineapple, Peach, Watermelon, Apple,Bilberry, Orange }.</string>
+    <string name="comment_adapter_facedata">The FaceDataAdapter is the adapter which is base on SQL, use the FaceData to connect the database and </string>
+    <string name="comment_adapter_json">The JSONAdapter is the adapter which is base on JSON, it can add JSON data in adapter when you catch JSON data by internet. Add the data to convert table if you know column name and want to filtered a lot of the JSON data.</string>
+    <string name="comment_adapter_viewpager">The</string>
+    <!--database-->
+    <string name="comment_database_data_agent">DataAgent can record and load the data with last records. Like SharedPreferences can save the information or status.</string>
+    <string name="comment_database_facedata">FaceData can help to develop with data stored in SQLite for database operate. To create the java class that it maps Java objects to database tables for POJO class. This class makes it easy for create the database and use basic operation. Like execute sqlite command for data, or add condition to query data. </string>
+    <string name="comment_database_generichelper">GenericHelper is the operation like SQLiteOpenHelper, but simple than it. Create a Generichelper object to insert, delete, select, or update the database with simple and short command.</string>
+    <!--devices-->
+    <string name="comment_devices_gpsutil"></string>
+    <string name="comment_devices_imageutil_download">This class can download the image by internet and save it in the SD card \nit download to your sd card and the path is sd:/data1</string>
+    <string name="comment_devices_imageutil_loader"></string>
+    <string name="comment_devices_imageutil_save">The ImageUtilSave used to save picture  simple and convenient to set the directory where save in picture file </string>
+    <string name="comment_devices_phone_agent">PhoneAgent has method which can send the msg or call number to someone.</string>
+    <string name="comment_devices_phone_util">PhoneUtil can display some information which about the network status or IMEI code</string>
+    <string name="comment_devices_photo_agent">PhotoAgent is the photo tool to edit photo with some image effect. Like rotate the image in the view. If you want to adjust the image size, you can use the resize method. It simple to handle image effect.</string>
+    <!--Activity-->
+    <string name="comment_activity_dialog"></string>
+    <string name="comment_activity_sidemenu"></string>
+    <!--JSON-->
+    <string name="comment_json_apachmon"></string>
+    <string name="comment_json_converter">The JSONConverter is helpful and convenient to handle the JSON data. You can convert the JSON table to object or list. It also can convert list or object to JSON array if you want.</string>
+    <string name="comment_json_mon">It only used to connect the internet which have the JSON data. You can post with the value which column has name and value. And receive the data to convert to the JSON array.</string>
+    <!--Service-->
+     <string name="comment_service_handler"></string>
+      <string name="comment_service_timer"></string>
+    <string-array name="colorArray"> 
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>indigo</item>
+        <item>violet</item>
+    </string-array>
+</resources>
+
+  <!--<string name="JSONUtil">If you have JSON array and you want to handle something action. There are two util. You can remove the element or sort in the array.</string> -->

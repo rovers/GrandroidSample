@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="grandroid.samples.demos"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="org.ioi.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  
+    <uses-permission android:name= "com.example.mapdemo.permission.MAPS_RECEIVE" />
+    <uses-permission android:name= "com.google.android.providers.gsf.permission.READ_GSERVICES" />
+ 
+    <uses-permission android:name= "android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    
+    
+  
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="16"/>
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:theme="@android:style/Theme.NoTitleBar">
+        <!--Main-->
+        <activity android:name="MainFrame"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ViewFrame"></activity>
+        <activity android:name="LayoutFrame"></activity>
+        <activity android:name="ActionFrame"></activity>
+        <activity android:name="DataBaseFrame"></activity>
+        <activity android:name="JSONFrame"></activity>
+        <activity android:name="AdapterFrame"></activity>
+        <activity android:name="DevicesFrame"></activity>
+        <activity android:name="ActivityFrame"></activity>
+        <activity android:name="ServiceFrame"></activity>
+        <!--Layout-->
+        <activity android:name=".layout.Lay"></activity>
+        <activity android:name=".layout.LayFF"></activity>
+        <activity android:name=".layout.LayFW"></activity>
+        <activity android:name=".layout.LayWF"></activity>
+        <activity android:name=".layout.LayWW"></activity>
+        <activity android:name=".layout.LinearLayoutDemo"></activity>
+        <activity android:name=".layout.FrameLayoutDemo"></activity>
+        <activity android:name=".layout.LayLinearDemo"></activity>
+        <activity android:name=".layout.LayFrameDemo"></activity>
+        <activity android:name=".layout.LayAbsoluteDemo"></activity>
+        <!--View-->
+        <activity android:name=".view.CreateViewDemo"></activity>
+        <activity android:name=".view.CreateStyleDemo"></activity>
+        <activity android:name=".view.ViewDesignerDemo"></activity>
+        <!--Action-->
+        <activity android:name=".action.GoActionDemo"></activity>
+        <activity android:name=".action.BackActionDemo"></activity>
+        <activity android:name=".action.DialActionDemo"></activity>
+        <activity android:name=".action.ToastActionDemo"></activity>
+        <activity android:name=".action.NotifyActionDemo"></activity>
+        <activity android:name=".action.AlertActionDemo"></activity>
+        <activity android:name=".action.UrlActionDemo"></activity>
+        <activity android:name=".action.FinishActionDemo"></activity>
+        <activity android:name=".action.MapActionDemo"></activity>
+        <activity android:name=".action.StoreActionDemo"></activity>
+        <activity android:name=".action.NavigationActionDemo"></activity>
+        <activity android:name=".action.AsyncActionDemo"></activity>
+        <activity android:name=".action.AsyncActionDefaultDemo"></activity>
+        <activity android:name=".action.AsyncActionCustomDemo"></activity>
+        <activity android:name=".action.PickPhotoActionDemo"></activity>
+        <activity android:name=".action.PhotoActionDemo"></activity>
+        <activity android:name=".action.TrimPhotoActionDemo"></activity>
+        <activity android:name=".action.ShareActionDemo"></activity>
+        <!--DataBase-->
+        <activity android:name=".database.IdentifiableDemo"></activity>
+        <activity android:name=".database.FaceDataDemo"></activity>
+        <activity android:name=".database.GenericHelperDemo"></activity>
+        <activity android:name=".database.DataAgentDemo"></activity>
+        <activity android:name=".database.InsertDemo"></activity>
+        <!--JSON-->
+        <activity android:name=".json.JSONConverterDemo"></activity>
+        <activity android:name=".json.JSONUtilDemo"></activity>
+        <activity android:name=".json.MonDemo"></activity>
+        <activity android:name=".json.ApacheMonDemo"></activity>
+        <!--Adapter-->
+        <activity android:name=".adapter.FaceDataAdapterDemo"></activity>
+        <activity android:name=".adapter.JSONAdapterDemo"></activity>
+        <activity android:name=".adapter.ObjectAdapterDemo"></activity>
+        <!--Devices-->
+        <activity android:name=".devices.PhoneUtilDemo"></activity>
+        <activity android:name=".devices.PhoneAgentDemo"></activity>
+        <activity android:name=".devices.ImageUtilDemo"></activity>
+        <activity android:name=".devices.ImageUtilLoaderDemo"></activity>
+        <activity android:name=".devices.ImageUtilDownloadDemo"></activity>
+        <activity android:name=".devices.ImageUtilSaveDemo"></activity>
+        <activity android:name=".devices.PhotoAgentDemo"></activity>
+        <activity android:name=".devices.GPSUtilDemo"></activity>
+        <!--Activity-->
+        <activity android:name=".activity.ActivityDemo"></activity>
+        <activity android:name=".activity.DialogDemo"></activity>
+        <activity android:name=".activity.FragmentDemo"></activity>
+        <activity android:name=".activity.SideMenuDemo"></activity>
+        <!--Service-->
+        <activity android:name=".service.ServiceDemo"></activity>
+        <service android:name=".service.HandlerServiceDemo"></service>
+        <service android:name=".service.TimerServiceDemo"></service>
+        <receiver android:name=".service.MyBR">
+            <intent-filter>
+                <action android:name="GRANDROID_SERVICE_H"/>
+                <action android:name="GRANDROID_SERVICE_T"/>
+            </intent-filter>
+        </receiver>
+
+ 
+    </application>
+</manifest>
